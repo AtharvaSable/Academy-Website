@@ -1,0 +1,60 @@
+
+doctype html
+html
+  head
+    title Magic Dance Academy
+    style
+      include ../static/style.css
+    body 
+     nav#navbar
+        ul
+          div#logo 
+            img(src="/static/a.png")
+            | MDA
+          li #[a(href="/") Home]
+          li #[a(href="/") About us]
+          li #[a(href="/") Services ]
+          li #[a(href="/") More]
+          li #[a(href="/") Contact us]
+
+     section#picsec 
+       div A dance studio is a space in which dancers learn or rehearse.
+       div The term is typically used to describe a space that has either been built or equipped for the purpose. 
+       div.small Eat Sleep Dance Repeat
+
+     section#missec 
+       h3 Our Mission
+       div#coo
+         div.card
+           h2 Dance 1
+           div.box 
+             div.card-img 
+               img(src="/static/a.png")
+             div.card-content
+                p Lorem ipsum dolor sit amet consectetur.
+         div.card Dance 2
+           div.box 
+              div.card-img 
+                img(src="/static/a.png")
+              div.card-content
+                p Lorem ipsum dolor sit amet consectetur.
+         div.card Dance 3
+           div.box 
+             div.card-img 
+               img(src="/static/a.png")
+             div.card-content
+                p Lorem ipsum dolor sit amet consectetur.
+
+     section#sposec
+        h3 Our Sponsers
+        div#spo     
+           img(src= "/static/a.png", alt= "Sponsor Image", class= "spImage")
+           img(src= "/static/a.png", alt= "Sponsor Image", class= "spImage")
+           img(src= "/static/a.png", alt= "Sponsor Image", class= "spImage")
+           img(src= "/static/a.png", alt= "Sponsor Image", class= "spImage")
+
+     footer#footer 
+      | copyright@atharvasablee ISO 1900:0000:1234
+
+     script 
+       include ../static/index.js
